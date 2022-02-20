@@ -164,8 +164,6 @@ a{
 
 /* Hero  */
 
-.hero {
-}
 
 .hero-wrapper {
   display: flex;
@@ -320,4 +318,74 @@ a{
   padding: 0 24px;
   letter-spacing: -0.203125px;
   color: #9597A5;
+}
+
+/* FOOTER  */
+
+.footer {
+  background-color:var(--dark);
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding: 48px 0;
+}
+.footer-navbar {
+  display: flex;
+}
+.footer-logo {
+  margin-right: 146px;
+}
+.social  svg{
+  margin-right: 13px;
+  margin-top: 55px;
+}
+
+.social svg path{
+  transition: all 0.4s ease;
+}
+
+.social svg:hover path{
+  fill: var(--green);
+}
+.media {
+}
+.footer-links-wrapper:not(:last-child) {
+  margin-right: 70px;
+}
+
+.footer-links-wrapper li{
+  margin-bottom: 10px;
+}
+
+.footer-link{
+  color:#fff;
+  font-size: 15px;
+  line-height: 26px;
+  /* identical to box height, or 173% */
+
+  letter-spacing: -0.234375p
+}
+.footer-link:hover {
+  color: var(--green);
+}
+.request-invite {
+  display: flex;
+  flex-direction: column;
+}
+.btn-premium {
+}
+.all-rights {
+  margin-top: 24px;
+  font-size: 15px;
+  line-height: 26px;
+  text-align: right;
+  letter-spacing: -0.234375px;
+  opacity: 0.5;
 }
